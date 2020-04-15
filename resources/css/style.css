@@ -94,7 +94,7 @@ input,button,select,textarea {outline:none;font-family:'Noto Sans KR', sans-seri
 .header {position:fixed;top:0;left:0;right:0;bottom:0;height:60px;background-color:#FFF;z-index:90;box-shadow:inset 0 -2px 0 0 #eee;}
 .header-wrap {position:relative;margin:0 auto;}
 .header-wrap:after {content:"";display:block;clear:both;}
-.header .nav-ctr {position:absolute;top:0;right:0;width:60px;height:60px;display:block;line-height:60px;text-align:center;font-size:0;background:url(../img/icon_header_nav.png) 50% 50% no-repeat;}
+.header .nav-ctr {position:absolute;top:0;right:0;width:60px;height:60px;display:block;line-height:60px;text-align:center;font-size:0;background:url(../img/icon_header_nav.png) 50% 50% no-repeat;background-size:40%;}
 .header .nav-ctr img {vertical-align:middle;height:22px;}
 .header .logo {position:absolute;top:17px;left:15px;}
 .header .logo a {display:block;}
