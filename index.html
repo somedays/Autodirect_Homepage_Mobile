@@ -42,9 +42,9 @@
                     <li><a href="awards.html"><span>수상내역</span></a></li>
                 </ul>
                 <ul class="nav-link">
-                    <li><a href=""><span><img src="resources/img/icon_nav_blog.png"></span><span>오토공식블로그</span></a></li>
-                    <li><a href=""><span><img src="resources/img/icon_nav_youtube.png"></span><span>연애인특판팀<br>유튜브</span></a></li>
-                    <li><a href=""><span><img src="resources/img/icon_nav_talktalk.png"></span><span>네이버톡톡상담</span></a></li>
+                    <li><a href="https://m.blog.naver.com/gotapo" target="_blank"><span><img src="resources/img/icon_nav_blog.png"></span><span>오토공식블로그</span></a></li>
+                    <li><a href="https://www.youtube.com/channel/UC0AzX0f1wLPJ6fQlLYItXmQ?app=" target="_blank"><span><img src="resources/img/icon_nav_youtube.png"></span><span>연애인특판팀<br>유튜브</span></a></li>
+                    <li><a href="https://talk.naver.com/ct/wc63gq" target="_blank"><span><img src="resources/img/icon_nav_talktalk.png"></span><span>네이버톡톡상담</span></a></li>
                 </ul>
                 <div class="nav-tel">
                     <a href="tel:16445752"><span>가장빠른 상담</span><strong>1644 - 5752</strong></a>
@@ -74,10 +74,29 @@
     </div>
 </div>
 <div class="footer-menu">
-    <div class="footer-btn quotation"><a href="quotation.html"><span></span><strong>견적문의</strong></a></div>
-    <div class="footer-btn company"><a href="company.html"><span></span><strong>회사소개</strong></a></div>
+    <div class="footer-btn quotation"><a href="javascript:void(0);" class="go-quick-quo"><span></span><strong>견적문의</strong></a></div>
+    <div class="footer-btn secret"><a href="secret.html"><span></span><strong>5가지 비결</strong></a></div>
     <div class="footer-btn tel"><a href="tel:16445752"><span></span><strong>전화상담</strong></a></div>
 </div>
+
+<div class="popup-quick-quo">
+    <div class="quick-quo-box">
+        <button type="button" class="quick-quo-close"></button>
+        <div class="quick-quo-header">
+            <h2><strong>간편견적문의</strong></h2>
+            <p>간단하게 장기렌트 문의남겨주세요.</p>
+            <p>전문 플래너가 빠르게 전화드리겠습니다.</p>
+        </div>
+        <div class="quick-quo-form">
+            <div class="quick-quo-input name"><input type="text" placeholder="이름"></div>
+            <div class="quick-quo-input tel"><input type="text" placeholder="전화번호"></div>
+            <div class="quick-quo-input message"><textarea placeholder="이름"></textarea></div>
+            <div class="quick-quo-input policy"><input type="checkbox" id="quick_quo_policy"><label for="quick_quo_policy">개인정보 수집 이용등에 대한 동의</label></div>
+            <div class="quick-quo-btn"><a href="javascript:void(0)">상담요청</a></div>
+        </div>
+    </div>
+</div>
+
 <div class="popup-quotation">
     <div class="popup-box">
         <div class="popup-tt">
@@ -226,7 +245,25 @@
                         <div class="car-image"><img src="http://autoimg.danawa.com/photo/3563/model_600.png"></div>
                         <div class="car-info">
                             <strong>현대 더 뉴 그랜저 hybrid</strong>
-                            <span>2020년형 가솔린 2.5 프리미엄 초이스</span>
+                        </div>
+                        <div class="select-info">
+                            <ul>
+                                <li>
+                                    <span>선택 등급</span>
+                                    <strong>2020년형 가솔린 2.5 프리미엄 초이스</strong>
+                                </li>
+                                <li>
+                                    <span>선택 옵션</span>
+                                    <strong>2020년형 가솔린 2.5 프리미엄 초이스</strong>
+                                    <strong>2020년형 가솔린 2.5 프리미엄 초이스</strong>
+                                    <strong>2020년형 가솔린 2.5 프리미엄 초이스</strong>
+                                    <strong>2020년형 가솔린 2.5 프리미엄 초이스</strong>
+                                </li>
+                                <li>
+                                    <span>선택 색상</span>
+                                    <strong><div class="color-box" style="background-color:#ffffff"></div><span>화이트 크림 (WC9)</span></strong>
+                                </li>
+                            </ul>
                         </div>
                         <div class="price-info">
                             <strong>400,000,000</strong>
@@ -235,20 +272,21 @@
                     </div>
                 </div>
                 <div class="select-item form-area">
-                    <h3>대여 조건 선택</h3>
+                    <h3>대여 조건 선택<button type="button" class="btn-folder"></button></h3>
                     <div class="car-form select-list">
-                        <div class="form-item w50"><select><option>이용방법 선택</option></select></div>
-                        <div class="form-item w50"><select><option>이용기간 선택</option></select></div>
-                        <div class="form-item w50"><select><option>보증금 선택</option></select></div>
-                        <div class="form-item w50"><select><option>7,000,000원</option></select></div>
-                        <div class="form-item w50"><select><option>선수금 선택</option></select></div>
-                        <div class="form-item w50"><select><option>7,000,000원</option></select></div>
-                        <div class="form-item w50"><select><option>연간 주행거리 선택</option></select></div>
-                        <div class="form-item w50"><select><option>상담 가능시간 선택</option></select></div>
+                        <div class="form-item w50"><select><option>이용방법</option></select></div>
+                        <div class="form-item w50"><select><option>이용기간</option></select></div>
+                        <div class="form-item w50">
+                            <div class="radio-item"><input type="radio" id="form-radio1" name="form-radio" checked /><label for="form-radio1"><span>보증금</span></label></div>
+                            <div class="radio-item"><input type="radio" id="form-radio2" name="form-radio" /><label for="form-radio2"><span>선수금</span></label></div>
+                        </div>
+                        <div class="form-item w50"><select><option>0%</option></select></div>
+                        <div class="form-item w50"><select><option>이용방법</option></select></div>
+                        <div class="form-item w50"><select><option>상담 가능시간</option></select></div>
                     </div>
                 </div>
                 <div class="select-item form-area">
-                    <h3>고객 정보 입력 ( * 필수 )</h3>
+                    <h3>고객 정보 입력 ( * 필수 )<button type="button" class="btn-folder"></button></h3>
                     <div class="car-form input-list">
                         <div class="form-item req"><label for="user_name">이름(회사명)</label><input type="text" id="user_name"></div>
                         <div class="form-item req"><label for="user_tel">전화번호('-'제외)</label><input type="text" id="user_tel"></div>
@@ -360,6 +398,14 @@ $('.nav-ctr').click(function() {
 
 $('.close-nav').click(function() {
     $('.nav').removeClass('on');
+});
+
+$('.go-quick-quo').click(function() {
+    $('.popup-quick-quo').addClass('on');
+});
+
+$('.quick-quo-close').click(function() {
+    $('.popup-quick-quo').removeClass('on');
 });
 
 $('.go-quotation').click(function() {
