@@ -181,7 +181,7 @@ body#main .header .nav-ctr {background-image:url(../img/icon_header_nav_white.pn
 /* Time Attack */
 .car-list-header {width:100%;}
 .car-list-wrap {position:relative;margin:0 auto;}
-.car-sale-type {font-size:0;margin-left:-20px;}
+.car-sale-type {font-size:0;}
 .car-sale-type span {display:inline-block;width:80px;text-align:center;height:20px;line-height:20px;color:#FFF;background-color:#232323;font-size:13px;letter-spacing:0;}
 .car-sale-type span.type1 {background-color:#d70000;}
 .car-sale-type span.type2 {background-color:#0020ab;}
@@ -193,7 +193,7 @@ body#main .header .nav-ctr {background-image:url(../img/icon_header_nav_white.pn
 .car-ecocar-type.plugin_hybrid {width:61px;}
 .car-ecocar-type.electric_car {width:30px;background-position:100% 0;}
 
-
+.car-list-item:first-child {margin-top:20px;}
 .car-list-item {position:relative;padding:0 20px;}
 .car-list-item .car-info .car-image {text-align:center;height:200px;line-height:200px;}
 .car-list-item .car-info .car-image img {max-width:300px;max-height:200px;vertical-align:middle;}
