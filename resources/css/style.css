@@ -413,7 +413,7 @@ body#main .header .nav-ctr {background-image:url(../img/icon_header_nav_white.pn
 .popup-quotation .select-item ul li input[type="checkbox"] + label:before {content:"";display:inline-block;width:16px;height:16px;background:#fff;border:1px solid #bdbdbd;margin-right:6px;vertical-align:middle;box-sizing:border-box;}
 .popup-quotation .select-item ul li input[type="radio"] + label:before {border-radius:50%;}
 .popup-quotation .select-item ul li input[type="radio"] + label > span,
-.popup-quotation .select-item ul li input[type="checkbox"] + label > span {display:inline-block;line-height:26px;vertical-align:middle;}
+.popup-quotation .select-item ul li input[type="checkbox"] + label > span {line-height:26px;vertical-align:middle;}
 .popup-quotation .select-item ul li input[type="radio"] + label > strong,
 .popup-quotation .select-item ul li input[type="checkbox"] + label > strong {position:absolute;top:0;right:20px;line-height:26px;font-weight:400;font-size:14px;text-align:right;}
 .popup-quotation .select-item ul li input[type="radio"]:checked + label:before,
