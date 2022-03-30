@@ -125,7 +125,7 @@ input,button,select,textarea {outline:none;font-family:'Noto Sans KR', sans-seri
 .header .nav ul.nav-link {display:flex;}
 .header .nav ul.nav-link li {flex:1;border-left:1px solid #e6e6e6;border-bottom:1px solid #e6e6e6;}
 .header .nav ul.nav-link li a {display:block;text-align:center;padding:10px 0 7px 0;line-height:16px;font-size:14px;color:#222;}
-.header .nav ul.nav-link li a span {display:block;}
+.header .nav ul.nav-link li a span {display:block;line-height:24px;}
 .header .nav ul.nav-link li a span img {height:25px;}
 .header .nav ul.nav-link li:nth-child(1) a span,
 .header .nav ul.nav-link li:nth-child(3) a span {line-height:24px;}
