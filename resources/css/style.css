@@ -248,8 +248,16 @@ body#main .header .nav-ctr {background-image:url(../img/icon_header_nav_white.pn
 .car-list.direct-car .car-deatail-info td.detail-car-price span {display:inline-block;padding-left:5px;font-weight:300;color:#555;}
 .car-list.direct-car .car-list-item .btn-area button {border-color:#f04a5e;background-color:#f04a5e;text-align:center;padding:0;line-height: 30px;height: 50px;font-size: 0;}
 .car-list.direct-car .car-list-item .btn-area button img {height:30px;vertical-align:middle;}
-.car-list.direct-car .car-list-item .sold-out {position:absolute;top:5px;left:5%;right:5%;bottom:30px;background-color:rgba(0,0,0,0.8);display:none;align-items:center;justify-content:center;font-size:50px;color:#fff;text-align:center;font-weight:800;line-height:60px;}
+.car-list.direct-car .car-list-item .sold-out {position:absolute;top:0;left:15px;right:15px;bottom:25px;background-color:rgba(0,0,0,0.8);display:none;align-items:center;justify-content:center;font-size:50px;color:#fff;text-align:center;font-weight:800;line-height:60px;}
 .car-list.direct-car .car-list-item.soldout .sold-out {display:flex;}
+
+.car-list.direct-car .car-list-item.no-car {height:600px;}
+.car-list.direct-car .car-list-item.no-car strong {display:block;text-align:center;font-size:27px;font-weight:600;padding-top:30px;color:#222;}
+.car-list.direct-car .car-list-item.no-car span {display:block;text-align:center;font-size:15px;font-weight:400;padding-top:15px;color:#222;}
+.car-list.direct-car .car-list-item.no-car .search-car {position:absolute;bottom:40px;left:0;right:0;font-size:0;text-align:center;}
+.car-list.direct-car .car-list-item.no-car .search-car img {width:85%;}
+.car-list.direct-car .car-list-item.no-car .search-car .search-car-btn {display:inline-block;width:90%;margin:0 5%;height:50px;line-height:50px;background-color:#ffac36;text-align:center;cursor:pointer;color:#fff;text-align:center;font-weight:600;font-size:20px;}
+.car-list.direct-car .car-list-item.no-car .search-car .search-car-btn:hover {background-color:#f89811;}
 
 /* ECO Header */
 .eco-header {position:relative;font-size:0;} 
